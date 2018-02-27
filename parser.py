@@ -14,10 +14,4 @@ def parse(file_name):
                 row.append(_topping[char])
             pizza.grid.append(row)
 
-        # pizza.grid = [list(i.strip()) for i in f]
     return pizza
-
-
-my_pizza = parse("example.in")
-print(my_pizza.R, my_pizza.C, my_pizza.L, my_pizza.H)
-print(my_pizza.grid)
